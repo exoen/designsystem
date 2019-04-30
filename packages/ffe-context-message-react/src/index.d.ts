@@ -10,7 +10,7 @@ export interface ContextMessageProps {
     headerElementId?: string;
     icon?: React.ReactNode;
     locale?: 'nb' | 'nn' | 'en';
-    onClose?: () => void;
+    onClose?: (event: React.MouseEvent) => void;
     showCloseButton?: boolean;
     style?: object;
 }
